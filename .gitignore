@@ -1,0 +1,99 @@
+# ===== Python / FastAPI =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+*.egg-link
+
+# venv
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# FastAPI / приложение
+backend/data/
+*.db
+*.sqlite3
+.env
+.env.*
+!.env.example
+
+# ===== ML-модели / веса =====
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.pb
+*.weights
+*.ckpt
+*.safetensors
+**/weights/
+!**/weights/.gitkeep
+mlruns/
+wandb/
+
+# ===== React Native / Node =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# React Native / Metro
+.metro-health-check*
+*.jsbundle
+
+# ===== iOS =====
+ios/Pods/
+ios/build/
+ios/*.xcworkspace
+ios/*.xcuserstate
+ios/DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ===== Android =====
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/.idea/
+*.keystore
+!debug.keystore
+*.jks
+*.hprof
+
+# ===== IDE / редакторы =====
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ===== Docker =====
+*.log
+docker-compose.override.yml
+
+# ===== Разное =====
+*.tmp
+*.bak
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
